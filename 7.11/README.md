@@ -6,7 +6,7 @@
 
 http://ideveloper2.tistory.com/119
 
-2.Frontend Skills - Babel 설치하기, 그리고 es6 코드 es5코드로 바꾸기
+2.Frontend Skills - Babel 설치하기, 그리고 spread operator es5코드로 바꾸기
 
 http://ideveloper2.tistory.com/120
 ```
