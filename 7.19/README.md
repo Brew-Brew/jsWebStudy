@@ -8,12 +8,20 @@
 
 ## How to start
 
-1.  npm install
+- 필요한 모듈 설치
 
-### develop
+```
+npm install
+```
 
-2.  npm run start
+- develop
 
-### production
+```
+ npm run start
+```
 
-2.  npm run build
+- production
+
+```
+npm run build
+```
