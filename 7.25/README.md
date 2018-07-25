@@ -1,7 +1,7 @@
-# browserify
+# 모듈, browserify, polyfill과 babel
 
 ```
-ex) require 같은것을 쓸수있게, common.js 같은 스펙을 노드환경에서만 가능하던것을 브라우저에서도 가능하게 함
+관련 포스팅 글 http://ideveloper2.tistory.com/134
 ```
 
 ## How to start
