@@ -1,0 +1,18 @@
+{
+  "name": "webpack_practice",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "browserify": "browserify ./src/index.js -o dist/bundle.js  -t [ babelify ]"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babelify": "^8.0.0",
+    "browserify": "^16.2.2"
+  }
+}
