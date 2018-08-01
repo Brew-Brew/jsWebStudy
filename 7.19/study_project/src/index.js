@@ -1,13 +1,15 @@
 async function cc() {
-  console.log("hi");
+	console.log("hi")
 }
+
+cc()
 
 function component() {
-  var element = document.createElement("div");
+	var element = document.createElement("div")
 
-  element.innerHTML = "스터디재밌aa따@";
-  element.classList.add("hello");
-  return element;
+	element.innerHTML = "스터디재밌aa따@"
+	element.classList.add("hello")
+	return element
 }
 
-document.body.appendChild(component());
+document.body.appendChild(component())
