@@ -14,11 +14,18 @@ module.exports = {
         }
       },
       {
+        test: /\.css$/,
+        use: [ {loader:'style-loader'}, {loader:'css-loader',options:{modules: true}} ]
+      },
+      {
         test: /\.(png|jpg|gif)$/,
         use: [
           {
-            loader: 'file-loader',
-            options: {}
+            loader: 'url-loader',
+            options: {
+              name: 'static/[name][hash:8][ext].[ext]',
+              limit: 100
+            }
           }
         ]
       }
